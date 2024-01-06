@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  background: blue;
+
+}
+
+h1 {
+  font-size: 50px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  letter-spacing: 4px;
+  color: rgb(253, 254, 255);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  white-space: nowrap;
+}
+
+.container {
+  padding: 0 auto;
+  text-align: center;
+}
+
+.btn {
+  padding: 30px 50px;
+  background-color: rgb(234, 234, 236);
+  border: none;
+  margin: 10px;
+  font-size: 30px;
+  min-width: 200px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  background-image: url("images/tom.png");
+  background-size: cover;
+  color: rgb(6, 18, 184);
+  font-family: cursive;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.btn:hover {
+  color: rgb(212, 13, 13);
+}
+
+.btn:active {
+  background-size: 105%;
+}
+
+@media (min-width: 480px) and (max-width:768px) {
+  .container {
+    width: 30%;
+    margin-right: 3.333% - 2;
+
+  }
+}
+
+.logo {
+  opacity: 0.8;
+}
+
+.me {
+  font-weight: bold;
+}
+
+@media (min-width: 480px) and (max-width:768px) {
+  .jumbotron {
+    height: 500px;
+    margin: 0;
+  }
+
+  .logo {
+    width: 50px;
+    height: 50px;
+  }
+
+  .featured h1 {
+    padding-top: 30px;
+  }
+
+  .featured p {
+    font-size: 18px;
+
+  }
+
+  .featured {
+    text-align: center;
+  }
+}
